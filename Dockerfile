@@ -3,6 +3,5 @@ FROM nginx
 WORKDIR /app
 COPY . .
 # RUN 
-CMD echo $NODENAME > /etc/LOL
-CMD sleep 36000
+CMD echo $NODENAME > /etc/LOL && sleep 36000
 #EXPOSE 3000

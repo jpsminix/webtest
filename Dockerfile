@@ -4,5 +4,4 @@ COPY . .
 RUN ln -s /tmp/lol lol
     
 RUN ls -ltr /opt/app-root/src    
-CMD echo $NODENAME >> /opt/app-root/src/index.html \
-nginx -g "daemon off;"
+CMD nginx -g "daemon off;"

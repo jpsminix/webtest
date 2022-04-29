@@ -4,5 +4,5 @@ WORKDIR /app
 #COPY . .
 #RUN yum install nginx
 # RUN 
-CMD echo $NODENAME && sleep 3600
-#EXPOSE 3000
+CMD sleep 3600
+

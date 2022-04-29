@@ -1,4 +1,4 @@
-FROM openshift/nginx:1.20-ubi8
+FROM registry.access.redhat.com/ubi8/nginx-120
 
 # Add application sources
 ADD test-app/nginx.conf "${NGINX_CONF_PATH}"

@@ -4,5 +4,4 @@ WORKDIR /opt/app-root/src
 COPY test /tmp/index.html
 RUN ln -s /tmp/index.html index.html
     
-CMD echo $NODENAME >> /tmp/index.html && \
-nginx -g "daemon off;"
+CMD nginx -g "daemon off;"

@@ -1,8 +1,8 @@
 FROM registry.access.redhat.com/ubi8/nginx-120
 WORKDIR /opt/app-root/src
 COPY . .
-RUN chgrp -R 0 /opt/app-root/src/index.html && \
-    chmod -R g=u /opt/app-root/src/index.html
+RUN chown -R 1001:1001 /opt/app-root/src
+USER 1001
     
 RUN ls -ltr /opt/app-root/src    
 CMD echo $NODENAME >> /opt/app-root/src/index.html \

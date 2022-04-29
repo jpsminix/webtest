@@ -1,4 +1,5 @@
 FROM registry.access.redhat.com/ubi8/nginx-120
+WORKDIR /opt/app-root/src
 
 # Add application sources
 # ADD test-app/nginx.conf "${NGINX_CONF_PATH}"

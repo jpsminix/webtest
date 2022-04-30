@@ -1,7 +1,9 @@
 FROM registry.access.redhat.com/ubi8/nginx-120
 WORKDIR /opt/app-root/src
-#COPY . .
-COPY test /tmp/index.html
+COPY . .
 RUN ln -s /tmp/index.html index.html
     
-CMD nginx -g "daemon off;"
+CMD cat HEAD > /tmp/index.html && \ 
+    echo $LOL >> /tmp/index.html && \ 
+    cat TAIL >> /tmp/index.html && \     
+    nginx -g "daemon off;"

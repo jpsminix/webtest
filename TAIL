@@ -1,5 +1,16 @@
         </ul>
+      </section>
     </section>
+    <section class="col-xs-12 col-sm-6 col-md-6">
+      <h3>Para más información y ayuda</h3>
+      <ul>
+        <li><a href="https://developers.openshift.com">Centro de desarrolladores</a></li>
+        <li><a href="https://docs.openshift.com">Documentación</a></li>
+        <li><a href="https://www.openshift.com/forums/openshift">OpenShift forums</a></li>
+        <li><a href="http://stackoverflow.com/questions/tagged/openshift">Preguntas Stack Overflow para OpenShift</a></li>
+        <li><a href="http://webchat.freenode.net/?randomnick=1&channels=openshift&uio=d4">Canal IRC #openshift en freenode.net</a></li>
+      </ul>
+    </section>    
     </div> 
   <footer>
     <div class="logo"><a href="https://www.openshift.com/"></a></div>

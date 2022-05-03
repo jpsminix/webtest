@@ -6,7 +6,7 @@
       <ul>
         <li><a href="https://developers.openshift.com">Centro de desarrolladores</a></li>
         <li><a href="https://docs.openshift.com">Documentación</a></li>
-        <li><a href="https://www.openshift.com/forums/openshift">OpenShift forums</a></li>
+        <li><a href="https://www.openshift.com/forums/openshift">Foros de OpenShift</a></li>
         <li><a href="http://stackoverflow.com/questions/tagged/openshift">Preguntas Stack Overflow para OpenShift</a></li>
         <li><a href="http://webchat.freenode.net/?randomnick=1&channels=openshift&uio=d4">Canal IRC #openshift en freenode.net</a></li>
       </ul>
@@ -17,7 +17,5 @@
     <div class="logo"><a href="https://www.openshift.com/"></a></div>
   </footer>
 </section>
-
-
 </body>
 </html>
